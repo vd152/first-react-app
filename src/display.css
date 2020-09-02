@@ -1,0 +1,63 @@
+.icon1{
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+}
+
+.icon2{
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+}
+
+.season-display{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.season-display.winter i{
+    color: white;
+}
+.season-display.summer i{
+    color: rgb(255, 255, 128);
+}
+
+h1{
+    font-size: 10rem;
+}
+h2{
+    position: absolute;
+    bottom: 10rem;
+    font-size: 5rem;
+}
+
+.winter.day{
+    background: rgb(245,255,79);
+    background: linear-gradient(0deg, rgba(245,255,79,1) 7%, rgba(111,219,241,1) 53%, rgba(82,196,222,1) 100%);}
+
+.winter.night{
+    background: rgb(3, 61, 148);
+    background: linear-gradient(0deg, rgba(3,61,148,1) 7%, rgba(111,219,241,1) 53%, rgba(82,196,222,1) 100%);
+}
+
+.summer.day{
+    background: rgb(245,255,79);
+    background: linear-gradient(0deg, rgba(245,255,79,1) 7%, rgba(253,84,0,1) 53%, rgba(253,84,0,1) 100%);
+}
+
+.summer.night{
+    background: rgb(27,27,19);
+    background: linear-gradient(0deg, rgba(27,27,19,1) 7%, rgba(253,84,0,1) 53%, rgba(253,84,0,1) 100%);
+}
+
+@media (max-width:768px){
+    h1{
+        font-size: 3rem;
+    }
+    h2{
+        font-size: 2rem;
+        bottom: 12rem;
+    }
+}
